@@ -1,0 +1,34 @@
+<svg id="Logistics" xmlns="http://www.w3.org/2000/svg" width="1000" height="359" viewBox="0 0 1000 359">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #003b6d;
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        font-size: 197.893px;
+      }
+
+      .cls-2, .cls-3 {
+        fill: #363738;
+        font-family: "Proxima Nova";
+        font-weight: 500;
+      }
+
+      .cls-3 {
+        font-size: 145.958px;
+      }
+    </style>
+  </defs>
+  <path id="Color_Fill_1" data-name="Color Fill 1" class="cls-1" d="M11.531,224.375V11.5H154.375s50.687-.719,50.687,63.5-50.687,64.219-50.687,64.219l55.313,85.156H154.375L99,139.219H55.313v85.156H11.531ZM55.313,96.656V52.938H143S154.375,53.344,154.375,75,143,96.656,143,96.656H55.313ZM248.848,224.375V52.93H237.327L270,11.506,301.843,52.93H291.475V224.375H248.848Zm91.014,0V182.952H467s14-.18,14-21.952-14-21.772-14-21.772H378s-49.659-10.5-49.659-65.012S378,11.506,378,11.506H518.433V52.93H391S378,53.346,378,75s13,21.654,13,21.654h90s48.954,4.011,48.954,64.346S481,224.375,481,224.375H339.862Zm222.35,0V11.506H750V52.93H603V96.654H711.982v42.574H603v43.724H750v41.423H562.212Zm220.046,0V11.506H834L946,161V11.506h42.479V224.375H936L824,75V224.375H782.258Z"/>
+  <text id="S" class="cls-2" transform="matrix(0.738, 0, 0, 0.737, 908, 345.811)">S</text>
+  <text id="C" class="cls-2" transform="matrix(0.738, 0, 0, 0.737, 773, 345.811)">C</text>
+  <text id="I" class="cls-2" transform="matrix(0.738, 0, 0, 0.737, 702, 345.811)">I</text>
+  <text id="T" class="cls-2" transform="matrix(0.738, 0, 0, 0.737, 583, 345.811)">T</text>
+  <text id="S-2" data-name="S" class="cls-2" transform="matrix(0.738, 0, 0, 0.737, 463, 345.811)">S</text>
+  <text id="I-2" data-name="I" class="cls-2" transform="matrix(0.738, 0, 0, 0.737, 392, 345.811)">I</text>
+  <text id="G" class="cls-2" transform="matrix(0.738, 0, 0, 0.737, 252, 345.811)">G</text>
+  <text id="O" class="cls-2" transform="matrix(0.738, 0, 0, 0.737, 105, 345.811)">O</text>
+  <text id="L" class="cls-3" x="0.394" y="345.667">L</text>
+</svg>
