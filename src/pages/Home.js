@@ -5,6 +5,8 @@ import SplitSection from '../components/SplitSection';
 import homeHeroImage from '../assets/home/homehero.jpg';
 import van16 from '../assets/home/van16.jpg';
 import truck24 from '../assets/home/truck24.jpg';
+import flatbed48 from '../assets/home/flatbed48.jpg';
+import dryvan53 from '../assets/home/dryvan53.jpg';
 import missionImage from '../assets/home/mission.jpg';
 import logisticsImage from '../assets/home/logistics.jpg';
 import expertiseImage from '../assets/home/expertise.jpg';
@@ -55,13 +57,13 @@ function Home() {
 
             </div>
             <div>
-              <img src={van16} id="grid-image"></img>
+              <img src={flatbed48} id="grid-image"></img>
               <h1>48' Flatbeds</h1>
               <p>Oversized and specialized cargo.</p>
             </div>
             <div>
 
-              <img src={truck24} id="grid-image"></img>
+              <img src={dryvan53} id="grid-image"></img>
               <h1>53' Dry Vans</h1>
               <p>High-capacity and secure transportation.</p>
             </div>

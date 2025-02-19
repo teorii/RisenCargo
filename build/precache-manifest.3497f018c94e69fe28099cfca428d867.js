@@ -1,31 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5a928099df956b4b65a817176eabe065",
+    "revision": "38a561e929e30abf3f3e11f0d3a94708",
     "url": "/index.html"
   },
   {
-    "revision": "3dd7f91bebc1d456bd94",
+    "revision": "f2663d4d6fd8cb2645b5",
     "url": "/static/css/main.62b91ec7.chunk.css"
   },
   {
-    "revision": "ae3621e57520bc43642f",
-    "url": "/static/js/2.ae063560.chunk.js"
+    "revision": "64b7669e1a81568b4383",
+    "url": "/static/js/2.0ed659a3.chunk.js"
   },
   {
     "revision": "086767091193ef01ad0e0b96594b6572",
-    "url": "/static/js/2.ae063560.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.0ed659a3.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9da87c18eea805414de8",
-    "url": "/static/js/3.a4f061b1.chunk.js"
+    "revision": "3c00eda06110726ebfdf",
+    "url": "/static/js/3.3e28d542.chunk.js"
   },
   {
-    "revision": "3dd7f91bebc1d456bd94",
-    "url": "/static/js/main.09472e09.chunk.js"
+    "revision": "f2663d4d6fd8cb2645b5",
+    "url": "/static/js/main.2511dbcd.chunk.js"
   },
   {
-    "revision": "967f97050a2b37273b45",
-    "url": "/static/js/runtime-main.6871660d.js"
+    "revision": "a1117308bf4dfa4387e8",
+    "url": "/static/js/runtime-main.b6b25987.js"
   },
   {
     "revision": "dba924d72908a26e6f61d18beb0f6bed",
@@ -56,8 +56,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/diversity.52c3481b.jpg"
   },
   {
+    "revision": "ee8218f3fa391b6a1311b2d89fae1a87",
+    "url": "/static/media/dryvan53.ee8218f3.jpg"
+  },
+  {
     "revision": "a875c651e7436913fa3d8f2e011d2662",
     "url": "/static/media/expertise.a875c651.jpg"
+  },
+  {
+    "revision": "319724a93fc418afa35ccc625853989a",
+    "url": "/static/media/flatbed48.319724a9.jpg"
   },
   {
     "revision": "aa1ec2cee76eaa88ce7726f00eed5135",
@@ -88,11 +96,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/solutions.3131b7a7.jpg"
   },
   {
-    "revision": "014b728b73b253bda018ee917aa9cdef",
-    "url": "/static/media/truck24.014b728b.jpg"
+    "revision": "d019d23ce230bc3676a202efa94c8396",
+    "url": "/static/media/truck24.d019d23c.jpg"
   },
   {
-    "revision": "fa1808ebc4f90826450f0eaf09f84d08",
-    "url": "/static/media/van16.fa1808eb.jpg"
+    "revision": "089ad55d2af2cba459681d4089007e53",
+    "url": "/static/media/van16.089ad55d.jpg"
   }
 ]);
