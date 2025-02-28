@@ -1,8 +1,13 @@
 import React from 'react';
 import Hero from '../components/Hero';
-import homeHeroImage from '../assets/home/homehero.jpg';
+import ftlhero from '../assets/ftl/ftlhero.jpg';
 import SplitSection from '../components/SplitSection';
 import IndustrySection from '../components/IndustrySection';
+import exclusiveuse from '../assets/ftl/exclusiveuse.jpg';
+import fastertransit from '../assets/ftl/fastertransit.jpg';
+import tailoredsolutions from '../assets/ftl/tailoredsolutions.jpg';
+import realtimetracking from '../assets/ftl/realtimetracking.png';
+import ftlcartage from '../assets/ftl/ftlcartage.jpg';
 
 function FTLCartage() {
   return (
@@ -10,11 +15,11 @@ function FTLCartage() {
       <Hero 
         title="FTL Cartage"
         subtitle="Empowering Supply Chains with Excellence."
-        backgroundImage={homeHeroImage}
+        backgroundImage={ftlhero}
       />
 
       <SplitSection
-        image="https://placehold.co/1920x1080"
+        image={ftlcartage}
         title="Full Truck Load (FTL) Cartage Services"
         description="At Risen Logistics, we specialize in 
         efficient and reliable Full Truck Load (FTL) cartage services 
@@ -28,22 +33,22 @@ function FTLCartage() {
           <h1>Why Choose Our FTL Cartage Services?</h1>
           <div class="four-grid">
             <div>
-              <img src='https://placehold.co/1920x1080' id="grid-image"></img>
+              <img src={exclusiveuse} id="grid-image"></img>
               <h1>Exclusive Use</h1>
               <p>Your shipment is the sole cargo on our truck, guaranteeing direct transit with no intermediate stops, reducing handling and risk of damage.</p>
             </div>
             <div>
-              <img src='https://placehold.co/1920x1080' id="grid-image"></img>
+              <img src={fastertransit} id="grid-image"></img>
               <h1>Faster Transit Times</h1>
               <p>With a direct route and no delays from additional pickups or deliveries, we offer some of the fastest transit times in the industry.</p>
             </div>
             <div>
-              <img src='https://placehold.co/1920x1080' id="grid-image"></img>
+              <img src={tailoredsolutions} id="grid-image"></img>
               <h1>Tailored Solutions</h1>
               <p>We understand that each shipment is unique. Our logistics experts work closely with you to tailor FTL solutions that match your specific requirements, including specialized equipment and route optimization.</p>
             </div>
             <div>
-              <img src='https://placehold.co/1920x1080' id="grid-image"></img>
+              <img src={realtimetracking} id="grid-image"></img>
               <h1>Real-Time Tracking</h1>
               <p>Stay informed with our 24/7/365 team and our tracking systems, giving you complete visibility over your shipment’s journey from start to finish.</p>
             </div>
