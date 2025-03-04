@@ -31,30 +31,30 @@ function About() {
 
       <div className="blue" style={{backgroundColor: '#ecedf2', color: '#000'}}>
         <div id="blue-content" style={{backgroundColor: '#ecedf2'}}>
-          <h1>Why Partner with Risen Logistics?</h1>
+          <h1>Why Choose Us?</h1>
           <div class="four-grid">
             <div>
               <img src={tempImage} className="grid-image" width="150" height="150" loading="lazy"></img>
-              <h1>Industry Expertise</h1>
-              <p>Years of experience ensure we meet the highest standards of efficiency and reliability.</p>
+              <h1>100+ Years of Combined Experience</h1>
+              <p>Our leadership and operational teams bring together a century of industry knowledge, ensuring your freight is handled by true professionals.</p>
             </div>
 
             <div>
               <img src={tempImage} className="grid-image" width="150" height="150" loading="lazy"></img>
-              <h1>Custom Solutions</h1>
-              <p>We design logistics strategies that align with your mission and goals.</p>
+              <h1>Customer-Centric Approach</h1>
+              <p>We don’t believe in one-size-fits-all solutions. We work closely with our clients to develop customized logistics strategies that align with their business goals.</p>
 
             </div>
             <div>
               <img src={tempImage} className="grid-image" width="150" height="150" loading="lazy"></img>
-              <h1>Commitment to Diversity</h1>
-              <p>As a minority women-owned company, we are proud to contribute to the diversification and empowerment of supply chains nationwide.</p>
+              <h1>Advanced Technology Integration</h1>
+              <p>From real-time tracking to AI-powered route optimization, we leverage the latest logistics tech to enhance visibility, reduce costs, and improve transit efficiency.</p>
 
             </div>
             <div>
               <img src={tempImage} className="grid-image" width="150" height="150" loading="lazy"></img>
-              <h1>Unmatched Service</h1>
-              <p>From the first mile to the last, we deliver exceptional service that exceeds expectations.</p>
+              <h1>Sustainability & Innovation</h1>
+              <p>We are committed to reducing our environmental footprint by optimizing fuel efficiency, minimizing empty miles, and incorporating eco-friendly logistics practices.</p>
 
             </div>
           </div>
