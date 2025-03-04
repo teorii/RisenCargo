@@ -1,5 +1,5 @@
 import React from 'react';
-import { lazy, Suspense } from 'react';
+import { lazy } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
 import Navbar from './components/Navbar';
@@ -11,6 +11,7 @@ const LTLCartage = lazy(() => import('./pages/LTL Cartage'));
 const WarehousingAndLogistics = lazy(() => import('./pages/WarehousingAndLogistics'));
 const Technology = lazy(() => import('./pages/Technology'));
 const About = lazy(() => import('./pages/About'));
+const Contact = lazy(() => import('./pages/Contact'));
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
             <Route path="/services/warehousing&logistics" element={<WarehousingAndLogistics />} />
             <Route path="/technology" element={<Technology />} />
             <Route path="/about" element={<About />} />
+            <Route path="/contact" element={<Contact />} />
             {/* Add more routes as needed */}
           </Routes>
       </div>

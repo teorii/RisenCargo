@@ -46,7 +46,7 @@ body {
 }
 
 .contact-button:hover {
-  filter: brightness(0.8);
+  filter: brightness(1.2);
 }
 
 .navbar-links li {
@@ -241,7 +241,7 @@ body {
 }
 
 .button:hover {
-  filter: brightness(0.8);
+  filter: brightness(1.2);
 }
 
 @media (max-width: 768px) {
@@ -584,5 +584,98 @@ body {
 @media (min-width: 768px) {
   .services-grid {
     grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Get Quote Section */
+.quote-form-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+}
+
+.quote-form {
+  background: #ecedf2;
+  padding: 2.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.quote-form h2 {
+  color: #333;
+  margin-bottom: 0.5rem;
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+.form-description {
+  text-align: center;
+  color: #666;
+  margin-bottom: 2rem;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #444;
+  font-weight: 500;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.1);
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+  color: #aaa;
+}
+
+.submit-button {
+  width: 100%;
+  padding: 1rem;
+  background-color: #003b6d;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  filter: brightness(1.2);
+}
+
+.submit-button:active {
+  transform: translateY(1px);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .quote-form-container {
+    padding: 1rem;
+    margin: 1rem auto;
+  }
+  
+  .quote-form {
+    padding: 1.5rem;
   }
 }

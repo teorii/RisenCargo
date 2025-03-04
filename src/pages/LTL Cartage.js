@@ -1,5 +1,4 @@
 import React from 'react';
-import { lazy, Suspense } from 'react';
 import Hero from '../components/Hero';
 import SplitSection from '../components/SplitSection';
 import IndustrySection from '../components/IndustrySection';
