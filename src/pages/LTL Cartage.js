@@ -4,10 +4,10 @@ import Hero from '../components/Hero';
 import SplitSection from '../components/SplitSection';
 import IndustrySection from '../components/IndustrySection';
 import ltlhero from '../assets/ltl/ltlhero.jpg';
-import costsavings from '../assets/ltl/costsavings.png';
-import flexibility from '../assets/ltl/flexibility.png';
-import tailoredsolutions from '../assets/ltl/tailoredsolutions.png';
-import realtimetracking from '../assets/ltl/realtimetracking.png';
+import costsavings from '../assets/ltl/costsavings.jpg';
+import flexibility from '../assets/ltl/flexibility.jpg';
+import tailoredsolutions from '../assets/ltl/tailoredsolutions.jpg';
+import realtimetracking from '../assets/ltl/realtimetracking.jpg';
 
 function LTLCartage() {
   return (

@@ -6,7 +6,7 @@ import IndustrySection from '../components/IndustrySection';
 import exclusiveuse from '../assets/ftl/exclusiveuse.jpg';
 import fastertransit from '../assets/ftl/fastertransit.jpg';
 import tailoredsolutions from '../assets/ftl/tailoredsolutions.jpg';
-import realtimetracking from '../assets/ftl/realtimetracking.png';
+import realtimetracking from '../assets/ftl/realtimetracking.jpg';
 import ftlcartage from '../assets/ftl/ftlcartage.jpg';
 
 function FTLCartage() {

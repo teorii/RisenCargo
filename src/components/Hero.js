@@ -14,24 +14,31 @@ function Hero({ title, subtitle, buttons = false, primaryButton, secondaryButton
     color: 'white',
     backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${backgroundImage})`
   };
+
   return (
-    <div className={`hero`} style={heroStyle}>
-      <h1>{title}</h1>
-      <h2>{subtitle}</h2>
-      {buttons && (primaryButton || secondaryButton) && (
-      <div className="hero-buttons">
-        {primaryButton && (
-          <a href={primaryButton.link} className="button button-blue">
-            {primaryButton.text}
-          </a>
-        )}
-        {secondaryButton && (
-          <a href={secondaryButton.link} className="button button-white">
-            {secondaryButton.text}
-            </a>
+    <div className="hero-wrapper">
+      <picture>
+        <source srcSet={backgroundImage.replace('.jpg', '.webp')} type="image/webp" />
+        <source srcSet={backgroundImage} type="image/jpeg" />
+        <div className="hero" style={heroStyle}>
+          <h1>{title}</h1>
+          <h2>{subtitle}</h2>
+          {buttons && (primaryButton || secondaryButton) && (
+          <div className="hero-buttons">
+            {primaryButton && (
+              <a href={primaryButton.link} className="button button-blue">
+                {primaryButton.text}
+              </a>
+            )}
+            {secondaryButton && (
+              <a href={secondaryButton.link} className="button button-white">
+                {secondaryButton.text}
+                </a>
+              )}
+            </div>
           )}
         </div>
-      )}
+      </picture>
     </div>
   );
 }
