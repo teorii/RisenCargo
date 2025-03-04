@@ -12,7 +12,6 @@ function Technology() {
         backgroundImage={technologyHeroImage}
       />
 
-
     </section>
   );
 }
