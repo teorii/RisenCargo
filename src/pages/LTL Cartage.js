@@ -1,8 +1,13 @@
 import React from 'react';
+import { lazy, Suspense } from 'react';
 import Hero from '../components/Hero';
-import homeHeroImage from '../assets/home/homehero.jpg';
 import SplitSection from '../components/SplitSection';
 import IndustrySection from '../components/IndustrySection';
+import ltlhero from '../assets/ltl/ltlhero.jpg';
+import costsavings from '../assets/ltl/costsavings.png';
+import flexibility from '../assets/ltl/flexibility.png';
+import tailoredsolutions from '../assets/ltl/tailoredsolutions.png';
+import realtimetracking from '../assets/ltl/realtimetracking.png';
 
 function LTLCartage() {
   return (
@@ -10,7 +15,7 @@ function LTLCartage() {
       <Hero 
         title="LTL Cartage"
         subtitle="Empowering Supply Chains with Excellence."
-        backgroundImage={homeHeroImage}
+        backgroundImage={ltlhero}
       />
 
       <SplitSection
@@ -28,22 +33,22 @@ function LTLCartage() {
           <h1>Why Choose Our LTL Cartage Services?</h1>
           <div class="four-grid">
             <div>
-              <img src='https://placehold.co/1920x1080' id="grid-image"></img>
+              <img src={costsavings} className="grid-image" width="150" height="150" loading="lazy"></img>
               <h1>Cost Savings</h1>
               <p>Share truck space with other shipments and only pay for the portion you use, keeping your shipping costs low.</p>
             </div>
             <div>
-              <img src='https://placehold.co/1920x1080' id="grid-image"></img>
+              <img src={flexibility} className="grid-image" width="150" height="150" loading="lazy"></img>
               <h1>Flexibility</h1>
               <p>With frequent and reliable departures, you can count on timely deliveries that meet your deadlines.</p>
             </div>
             <div>
-              <img src='https://placehold.co/1920x1080' id="grid-image"></img>
+              <img src={tailoredsolutions} className="grid-image" width="150" height="150" loading="lazy"></img>
               <h1>Tailored Solutions</h1>
               <p>Our logistics experts work closely with you to create tailored solutions, including optimized routes and load consolidation for maximum efficiency.</p>
             </div>
             <div>
-              <img src='https://placehold.co/1920x1080' id="grid-image"></img>
+              <img src={realtimetracking} className="grid-image" width="150" height="150" loading="lazy"></img>
               <h1>Real-Time Tracking</h1>
               <p>Stay informed with our advanced tracking systems, giving you complete visibility over your shipment’s journey from start to finish.</p>
             </div>

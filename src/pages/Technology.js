@@ -1,6 +1,6 @@
 import React from 'react';
 import Hero from '../components/Hero';
-import technologyHeroImage from '../assets/1920x1080.svg';
+import technologyHeroImage from '../assets/technology/technologyhero.jpg';
 
 function Technology() {
   return (

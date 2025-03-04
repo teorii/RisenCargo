@@ -5,7 +5,7 @@ const SplitSection = ({ image, title, description, imageFirst = true, background
     {imageFirst ? (
       <>
         <div className="split-image">
-          <img src={image} alt={title} />
+          <img src={image} alt={title} width="600" height="400" loading="lazy" />
         </div>
         <div className="split-content">
           <h1>{title}</h1>
@@ -19,7 +19,7 @@ const SplitSection = ({ image, title, description, imageFirst = true, background
           <div>{description}</div>
         </div>
         <div className="split-image">
-          <img src={image} alt={title} />
+          <img src={image} alt={title} width="600" height="400" loading="lazy" />
         </div>
       </>
     )}

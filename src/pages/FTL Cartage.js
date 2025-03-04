@@ -33,22 +33,22 @@ function FTLCartage() {
           <h1>Why Choose Our FTL Cartage Services?</h1>
           <div class="four-grid">
             <div>
-              <img src={exclusiveuse} id="grid-image"></img>
+              <img src={exclusiveuse} className="grid-image" width="150" height="150" loading="lazy"></img>
               <h1>Exclusive Use</h1>
               <p>Your shipment is the sole cargo on our truck, guaranteeing direct transit with no intermediate stops, reducing handling and risk of damage.</p>
             </div>
             <div>
-              <img src={fastertransit} id="grid-image"></img>
+              <img src={fastertransit} className="grid-image" width="150" height="150" loading="lazy"></img>
               <h1>Faster Transit Times</h1>
               <p>With a direct route and no delays from additional pickups or deliveries, we offer some of the fastest transit times in the industry.</p>
             </div>
             <div>
-              <img src={tailoredsolutions} id="grid-image"></img>
+              <img src={tailoredsolutions} className="grid-image" width="150" height="150" loading="lazy"></img>
               <h1>Tailored Solutions</h1>
               <p>We understand that each shipment is unique. Our logistics experts work closely with you to tailor FTL solutions that match your specific requirements, including specialized equipment and route optimization.</p>
             </div>
             <div>
-              <img src={realtimetracking} id="grid-image"></img>
+              <img src={realtimetracking} className="grid-image" width="150" height="150" loading="lazy"></img>
               <h1>Real-Time Tracking</h1>
               <p>Stay informed with our 24/7/365 team and our tracking systems, giving you complete visibility over your shipment’s journey from start to finish.</p>
             </div>

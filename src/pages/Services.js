@@ -42,6 +42,7 @@ function Services() {
                   src={service.image}
                   alt={service.title}
                   className="service-image"
+                  loading="lazy"
                 />
                 <div className="service-overlay">
                   <div className="service-content">

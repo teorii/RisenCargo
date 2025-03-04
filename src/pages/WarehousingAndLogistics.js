@@ -2,8 +2,11 @@ import React from 'react';
 import Hero from '../components/Hero';
 import homeHeroImage from '../assets/home/homehero.jpg';
 import SplitSection from '../components/SplitSection';
-import tempImage from '../assets/1920x1080.svg';
 import WhyChooseUs from '../components/WhyChooseUs';
+import teckdrivensolutions from '../assets/warehousing/teckdrivensolutions.jpg';
+import bondedwarehousing from '../assets/warehousing/bondedwarehousing.jpg';
+import quickandnimbleservice from '../assets/warehousing/quickandnimbleservice.jpg';
+import facilitysecurityandcompliance from '../assets/warehousing/facilitysecurityandcompliance.jpg';
 
 function WarehousingAndLogistics() {
   return (
@@ -15,7 +18,7 @@ function WarehousingAndLogistics() {
       />
       
       <SplitSection
-        image={tempImage}
+        image={teckdrivensolutions}
         title="Technology-Driven Solutions"
         description={
           <>
@@ -39,7 +42,7 @@ function WarehousingAndLogistics() {
       />
 
       <SplitSection
-        image={tempImage}
+        image={bondedwarehousing}
         title="Bonded Warehousing"
         description={
           <p>Secure, compliant, and strategically located, our bonded warehouse facilities provide an optimal solution for managing bonded goods. Risen Logistics delivers peace of mind with end-to-end compliance and security as a Department of Homeland Security (TSA,CTPA) approved facility.</p>
@@ -50,7 +53,7 @@ function WarehousingAndLogistics() {
       />
 
       <SplitSection
-        image={tempImage}
+        image={quickandnimbleservice}
         title="Quick and Nimble Service"
         description={
           <p>In today's fast-paced business environment, responsiveness is everything. Our team is committed to delivering agile solutions tailored to your unique needs. Whether it's same-day pick-and-pack services, last-minute adjustments, or expedited shipping, Risen Logistics is here to keep your operations running smoothly.</p>
@@ -59,7 +62,7 @@ function WarehousingAndLogistics() {
       />
 
       <SplitSection
-        image={tempImage}
+        image={facilitysecurityandcompliance}
         title="Facility Security and Compliance"
         description={
           <p>Your goods are in safe hands with Risen Logistics. Our facility is equipped with 18 high-definition cameras, ensuring 24/7 surveillance and monitoring. Additionally, we are regulated by the Department of Homeland Security, meeting rigorous TSA and US Customs standards as a CTPAT and TSA secure facility. This guarantees that your inventory is stored in a secure, compliant environment.</p>

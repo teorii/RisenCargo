@@ -14,7 +14,6 @@ import solutionsImage from '../assets/home/solutions.jpg';
 import diversityImage from '../assets/home/diversity.jpg';
 import serviceImage from '../assets/home/service.jpg';
 
-
 function Home() {
   return (
     <section>
@@ -45,25 +44,25 @@ function Home() {
             its destination on time, every time. Our fleet includes:</p>
           <div class="four-grid">
             <div>
-              <img src={van16} id="grid-image"></img>
+              <img src={van16} className="grid-image" width="150" height="150" loading="lazy"/>
               <h1>16' Vans</h1>
               <p>Agile and quick deliveries.</p>
             </div>
 
             <div>
-              <img src={truck24} id="grid-image"></img>
+              <img src={truck24} className="grid-image" width="150" height="150" loading="lazy"></img>
               <h1>24' Straight Trucks</h1>
               <p>Versatile medium-load solutions.</p>
 
             </div>
             <div>
-              <img src={flatbed48} id="grid-image"></img>
+              <img src={flatbed48} className="grid-image" width="150" height="150" loading="lazy"></img>
               <h1>48' Flatbeds</h1>
               <p>Oversized and specialized cargo.</p>
             </div>
             <div>
 
-              <img src={dryvan53} id="grid-image"></img>
+              <img src={dryvan53} className="grid-image" width="150" height="150" loading="lazy"></img>
               <h1>53' Dry Vans</h1>
               <p>High-capacity and secure transportation.</p>
             </div>
@@ -87,25 +86,25 @@ function Home() {
           <h1>Why Partner with Risen Logistics?</h1>
           <div class="four-grid">
             <div>
-              <img src={expertiseImage} id="grid-image"></img>
+              <img src={expertiseImage} className="grid-image" width="150" height="150" loading="lazy"></img>
               <h1>Industry Expertise</h1>
               <p>Years of experience ensure we meet the highest standards of efficiency and reliability.</p>
             </div>
 
             <div>
-              <img src={solutionsImage} id="grid-image"></img>
+              <img src={solutionsImage} className="grid-image" width="150" height="150" loading="lazy"></img>
               <h1>Custom Solutions</h1>
               <p>We design logistics strategies that align with your mission and goals.</p>
 
             </div>
             <div>
-              <img src={diversityImage} id="grid-image"></img>
+              <img src={diversityImage} className="grid-image" width="150" height="150" loading="lazy"></img>
               <h1>Commitment to Diversity</h1>
-              <p>As a certified minority women-owned company, we are proud to contribute to the diversification and empowerment of supply chains nationwide.</p>
+              <p>As a minority women-owned company, we are proud to contribute to the diversification and empowerment of supply chains nationwide.</p>
 
             </div>
             <div>
-              <img src={serviceImage} id="grid-image"></img>
+              <img src={serviceImage} className="grid-image" width="150" height="150" loading="lazy"></img>
               <h1>Unmatched Service</h1>
               <p>From the first mile to the last, we deliver exceptional service that exceeds expectations.</p>
 
