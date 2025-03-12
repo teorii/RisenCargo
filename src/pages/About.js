@@ -1,8 +1,10 @@
 import React from 'react';
 import Hero from '../components/Hero';
-import aboutHeroImage from '../assets/1920x1080.svg';
 import SplitSection from '../components/SplitSection';
 import tempImage from '../assets/1920x1080.svg';
+import aboutHeroImage from '../assets/about/aboutheader.jpg'
+import aboutmission from '../assets/about/aboutmission.jpg'
+import aboutstory from '../assets/about/aboutstory.jpg'
 
 function About() {
   return (
@@ -14,14 +16,14 @@ function About() {
       />
 
       <SplitSection
-        image="https://placehold.co/1920x1080"
+        image={aboutstory}
         title="Our Story"
         description="Built on a foundation of reliability, efficiency, and customer-first service, Risen Logistics was founded by industry veterans with over a century of hands-on experience in trucking, Warehousing, In Bonds, Transborder and supply chain management. Our leadership team has worked across every facet of transportation from transborder logistics to warehousing and everything between. This deep-rooted expertise allows us to anticipate challenges, adapt to industry changes, and provide innovative logistics solutions that keep businesses moving forward."
         imageFirst={false}
       />
 
       <SplitSection
-        image="https://placehold.co/1920x1080"
+        image={aboutmission}
         title="Our Mission"
         description="At Risen Logistics, we are committed to delivering smarter, faster, and more efficient transportation solutions tailored to the unique needs of our customers. By combining cutting-edge technology with our extensive industry knowledge, we provide seamless freight management that drives reliability, cost savings, and operational efficiency."
         imageFirst={true}

@@ -3,25 +3,28 @@ import Hero from '../components/Hero';
 import homeHeroImage from '../assets/home/homehero.jpg';
 import { Link } from 'react-router-dom';
 import tempImage from '../assets/1920x1080.svg';
+import ftlhero from '../assets/ftl/ftlhero.jpg';
+import ltlhero from '../assets/ltl/ltlhero.jpg';
+import missionImage from '../assets/home/mission.jpg';
 
 function Services() {
   const services = [
     {
       title: 'Full Truckload (FTL) Cartage',
       description: 'Dedicated freight solutions for your large shipments',
-      image: tempImage, // Replace with actual image path
+      image: ftlhero,
       link: '/services/ftlcartage'
     },
     {
       title: 'Less Than Truckload (LTL) Cartage',
       description: 'Cost-effective shipping for smaller freight loads',
-      image: tempImage, // Replace with actual image path
+      image: ltlhero,
       link: '/services/ltlcartage'
     },
     {
       title: 'Warehousing & Logistics',
       description: 'Secure storage and distribution solutions',
-      image: tempImage, // Replace with actual image path
+      image: missionImage,
       link: '/services/warehousing&logistics'
     }
   ];
