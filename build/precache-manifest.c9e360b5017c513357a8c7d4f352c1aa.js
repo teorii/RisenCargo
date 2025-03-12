@@ -1,6 +1,5 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-<<<<<<< HEAD:build/precache-manifest.c9e360b5017c513357a8c7d4f352c1aa.js
     "revision": "401f497968aee70c6a4fdcd2fbecb8ff",
     "url": "/index.html"
   },
@@ -23,30 +22,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "9737ae57ab3e35f392d6",
     "url": "/static/js/3.567dbbd0.chunk.js"
-=======
-    "revision": "d9f736cc8687d21304fecf835f0307a4",
-    "url": "/index.html"
-  },
-  {
-    "revision": "ef847f75af19b4557fca",
-    "url": "/static/css/main.9f805a36.chunk.css"
-  },
-  {
-    "revision": "463eb549ef66d89139fd",
-    "url": "/static/js/10.ecf42e70.chunk.js"
-  },
-  {
-    "revision": "2aee560bb3693edef266",
-    "url": "/static/js/11.dec11181.chunk.js"
-  },
-  {
-    "revision": "3f04030c8252c4f697fe",
-    "url": "/static/js/2.f99c56e7.chunk.js"
-  },
-  {
-    "revision": "94965b3e94809b1cd07e",
-    "url": "/static/js/3.6c179061.chunk.js"
->>>>>>> e0cd8d61b46f6ae6fdcb26e56b6dc966875e3c2f:build/precache-manifest.fee796b29ee3cc50328dc2b8a955dff3.js
   },
   {
     "revision": "4dc1892c2a1740c0430b",
@@ -57,7 +32,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/4.057e2621.chunk.js.LICENSE.txt"
   },
   {
-<<<<<<< HEAD:build/precache-manifest.c9e360b5017c513357a8c7d4f352c1aa.js
     "revision": "2e19df908e5c2272b0af",
     "url": "/static/js/5.6ecbc1a3.chunk.js"
   },
@@ -84,34 +58,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "2b32a932a4139641b22a",
     "url": "/static/js/runtime-main.72227616.js"
-=======
-    "revision": "f3743b1136d982950a09",
-    "url": "/static/js/5.61bb8bc4.chunk.js"
-  },
-  {
-    "revision": "517cb8c928be53d87512",
-    "url": "/static/js/6.6c715dbd.chunk.js"
-  },
-  {
-    "revision": "252bdfe1d69239fc106c",
-    "url": "/static/js/7.d3ea140b.chunk.js"
-  },
-  {
-    "revision": "bf1f57be6422ac66e590",
-    "url": "/static/js/8.732a6990.chunk.js"
-  },
-  {
-    "revision": "61ffa7efcf14a012c17f",
-    "url": "/static/js/9.3d3aef7e.chunk.js"
-  },
-  {
-    "revision": "ef847f75af19b4557fca",
-    "url": "/static/js/main.dc0047f0.chunk.js"
-  },
-  {
-    "revision": "526a1b0e25da862069b1",
-    "url": "/static/js/runtime-main.e3e7aed9.js"
->>>>>>> e0cd8d61b46f6ae6fdcb26e56b6dc966875e3c2f:build/precache-manifest.fee796b29ee3cc50328dc2b8a955dff3.js
   },
   {
     "revision": "dba924d72908a26e6f61d18beb0f6bed",

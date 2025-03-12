@@ -3,8 +3,7 @@ import Hero from '../components/Hero';
 import SplitSection from '../components/SplitSection';
 // Image imports
 import technologyHeroImage from '../assets/technology/technologyhero.jpg';
-import SplitSection from '../components/SplitSection';
-import technologydrives from '../assets/technology/technologydrives.jpg'
+import technologydrives from '../assets/technology/technologydrives.jpg';
 import realtime from '../assets/technology/realtime.jpg'
 import wms from '../assets/technology/wms.jpg'  
 import future from '../assets/technology/future.jpg'
