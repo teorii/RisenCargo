@@ -31,13 +31,16 @@ function Footer() {
 
         <div className="footer-right">
           <h3>Ready to elevate your logistics experience?</h3>
-          <br></br>
+          <br/>
           <p>Contact us today to discuss how Risen Logistics can support your transportation needs with precision and professionalism.</p>
-          <br></br>
+          <br/>
           <p>At Risen Logistics, we pride ourselves on delivering top-notch services that meet the unique needs of your business. With our focus on reliability, transparency, and customer satisfaction, we are your trusted partner in logistics.</p>
-          <br></br>
+          <br/>
           <Link to="/contact" className="contact-button" style={{position: "relative", left: "0px", top: "15px"}}>Get a Quote</Link>
         </div>
+      </div>
+      <div className='footer-llc'>
+        <em>Risen was established as a California Limited Liability Company and has a licensing arrangement with Platinum Cargo, who serves as Risen’s third-party logistics provider.</em>  
       </div>
     </footer>
   );

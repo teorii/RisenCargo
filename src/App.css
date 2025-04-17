@@ -392,6 +392,13 @@ body {
   flex: 0.8;
 }
 
+.footer-llc {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  font-size: 1em;
+  text-align: center;
+}
+
 .footer-logo {
   max-width: 200px;
   margin-bottom: 2rem;
@@ -416,11 +423,22 @@ body {
 }
 
 @media (max-width: 768px) {
+  .footer-container {
+    padding: 3rem 15%;
+  }
+
   .footer-content {
     flex-direction: column;
     align-items: center;
-    margin: 0 auto;
-    margin-bottom: 2rem;
+    gap: 3rem;
+  }
+
+  .footer-logo {
+    min-width: 65vw;
+  }
+
+  .footer-llc {
+    margin-top: 4rem;
   }
 }
 
