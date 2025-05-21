@@ -7,6 +7,7 @@ import costsavings from '../assets/ltl/costsavings.jpg';
 import flexibility from '../assets/ltl/flexibility.jpg';
 import tailoredsolutions from '../assets/ltl/tailoredsolutions.jpg';
 import realtimetracking from '../assets/ltl/realtimetracking.jpg';
+import lessthantruckload from '../assets/ltl/lessthantruckload.jpg';
 
 function LTLCartage() {
   return (
@@ -18,7 +19,7 @@ function LTLCartage() {
       />
 
       <SplitSection
-        image="https://placehold.co/1920x1080"
+        image={lessthantruckload}
         title="Less Than Truckload (LTL) Cartage Services"
         description="At Risen Logistics, we provide flexible and cost-effective 
         Less Than Truck Load (LTL) cartage services for businesses with smaller 

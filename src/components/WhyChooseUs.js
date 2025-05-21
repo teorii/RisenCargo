@@ -32,43 +32,64 @@ const WhyChooseUs = () => {
     }
   ];
 
+  const styles = {
+    '@media (max-width: 1200px)': {
+      gridTemplateColumns: 'repeat(4, 1fr)',
+    },
+    '@media (max-width: 768px)': {
+      gridTemplateColumns: 'repeat(2, 1fr)',
+    },
+    '@media (max-width: 480px)': {
+      gridTemplateColumns: '1fr',
+    }
+  };
+
   return (
     <div className="why-choose-us" style={{
-      padding: '4rem 2rem',
+      padding: '6rem 2rem',
       backgroundColor: '#ecedf2'
     }}>
       <div style={{
-        maxWidth: '70vw',
-        margin: '0 auto'
+        maxWidth: '1400px',
+        margin: '0 auto',
+        padding: '0 2rem'
       }}>
         <h1 style={{
           textAlign: 'center',
-          fontSize: '2rem',
-          marginBottom: '3rem',
-          color: '#003b6d'
+          fontSize: '2.5rem',
+          marginBottom: '4rem',
+          color: '#003b6d',
+          fontWeight: '600'
         }}>Why Choose Us?</h1>
 
         <div style={{
           display: 'grid',
-          gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))',
-          gap: '0px',
-          marginBottom: '3rem'
+          gridTemplateColumns: 'repeat(7, 1fr)',
+          gap: '24px',
+          marginBottom: '4rem'
         }}>
           {benefits.map((benefit, index) => (
             <div key={index} style={{
               padding: '2rem',
               backgroundColor: 'white',
-              borderRadius: '8px',
-              boxShadow: '0 2px 4px rgba(0,0,0,0.1)',
+              borderRadius: '12px',
+              boxShadow: '0 4px 6px rgba(0,0,0,0.1)',
+              transition: 'transform 0.2s ease',
+              height: '100%',
+              display: 'flex',
+              flexDirection: 'column',
+              justifyContent: 'flex-start'
             }}>
               <h3 style={{
-                fontSize: '1.25rem',
+                fontSize: '1.1rem',
                 color: '#003b6d',
-                marginBottom: '1rem'
+                marginBottom: '1rem',
+                fontWeight: '600'
               }}>{benefit.title}</h3>
               <p style={{
-                color: '#666',
-                lineHeight: '1.5'
+                color: '#555',
+                lineHeight: '1.6',
+                fontSize: '0.95rem'
               }}>{benefit.description}</p>
             </div>
           ))}
@@ -76,9 +97,10 @@ const WhyChooseUs = () => {
         <div style={{
           textAlign: 'center',
           color: '#333',
-          maxWidth: '70vw',
+          maxWidth: '800px',
           margin: '0 auto',
-          lineHeight: '1.6'
+          lineHeight: '1.6',
+          fontSize: '1.1rem'
         }}>
           Let Risen Logistics handle your logistics and warehousing challenges, so you can focus on growing your business.
         </div>

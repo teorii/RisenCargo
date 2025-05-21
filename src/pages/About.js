@@ -5,6 +5,8 @@ import tempImage from '../assets/1920x1080.svg';
 import aboutHeroImage from '../assets/about/aboutheader.jpg'
 import aboutmission from '../assets/about/aboutmission.jpg'
 import aboutstory from '../assets/about/aboutstory.jpg'
+import moveforward from '../assets/about/moveforward.jpg'
+import ourpromise from '../assets/about/ourpromise.jpg'
 
 function About() {
   return (
@@ -64,7 +66,7 @@ function About() {
       </div>
 
       <SplitSection
-        image="https://placehold.co/1920x1080"
+        image={ourpromise}
         title="Our Promise"
         description="Logistics is more than just moving goods from point A to point B it’s about trust, reliability, and delivering on promises. At Risen Logistics, we take pride in being the backbone of your supply chain, ensuring that every shipment arrives safely, on schedule, and with the highest level of service."
         imageFirst={true}
@@ -73,7 +75,7 @@ function About() {
       />
 
       <SplitSection
-        image="https://placehold.co/1920x1080"
+        image={moveforward}
         title="Let’s Move Forward, Together."
         description="Experience the difference that over a century of expertise can make. Whether you need full-service logistics, freight brokerage, or dedicated trucking solutions, Risen Logistics is here to help."
         imageFirst={false}
