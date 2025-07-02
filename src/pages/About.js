@@ -7,6 +7,7 @@ import aboutmission from '../assets/about/aboutmission.jpg'
 import aboutstory from '../assets/about/aboutstory.jpg'
 import moveforward from '../assets/about/moveforward.jpg'
 import ourpromise from '../assets/about/ourpromise.jpg'
+import WhyChooseUs from '../components/WhyChooseUs';
 
 function About() {
   return (
@@ -33,37 +34,7 @@ function About() {
         textcolor="white"
       />
 
-      <div className="blue" style={{backgroundColor: '#ecedf2', color: '#000'}}>
-        <div id="blue-content" style={{backgroundColor: '#ecedf2'}}>
-          <h1>Why Choose Us?</h1>
-          <div class="four-grid">
-            <div>
-              <img src={tempImage} className="grid-image" width="150" height="150" loading="lazy"></img>
-              <h1>100+ Years of Combined Experience</h1>
-              <p>Our leadership and operational teams bring together a century of industry knowledge, ensuring your freight is handled by true professionals.</p>
-            </div>
-
-            <div>
-              <img src={tempImage} className="grid-image" width="150" height="150" loading="lazy"></img>
-              <h1>Customer-Centric Approach</h1>
-              <p>We don’t believe in one-size-fits-all solutions. We work closely with our clients to develop customized logistics strategies that align with their business goals.</p>
-
-            </div>
-            <div>
-              <img src={tempImage} className="grid-image" width="150" height="150" loading="lazy"></img>
-              <h1>Advanced Technology Integration</h1>
-              <p>From real-time tracking to AI-powered route optimization, we leverage the latest logistics tech to enhance visibility, reduce costs, and improve transit efficiency.</p>
-
-            </div>
-            <div>
-              <img src={tempImage} className="grid-image" width="150" height="150" loading="lazy"></img>
-              <h1>Sustainability & Innovation</h1>
-              <p>We are committed to reducing our environmental footprint by optimizing fuel efficiency, minimizing empty miles, and incorporating eco-friendly logistics practices.</p>
-
-            </div>
-          </div>
-        </div>
-      </div>
+      <WhyChooseUs />
 
       <SplitSection
         image={ourpromise}
