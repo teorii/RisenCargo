@@ -16,12 +16,7 @@ function GetQuote() {
         backgroundImage={heroImage}
       />
       <div className="quote-form-container" style={{ textAlign: 'center', padding: '2rem' }}>
-        <h2>Request a Quote</h2>
-        <p className="form-description">
-          Please email all info to <a href="mailto:sales@risencargo.com">sales@risencargo.com</a> or call <a href="tel:16197625850">(619) 762-5850</a>.
-        </p>
-        { /*
-        <form onSubmit={handleSubmit} className="quote-form">
+        <form className="quote-form">
           <h2>Request a Quote</h2>
           <p className="form-description">Fill out the form below and we'll get back to you shortly.</p>
           <div className="form-group">
@@ -58,7 +53,6 @@ function GetQuote() {
             Submit Quote Request
           </button>
         </form>
-        */}
       </div>
     </section>
   );
