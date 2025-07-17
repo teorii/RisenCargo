@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { EnvelopeClosedIcon, InstagramLogoIcon, LinkedInLogoIcon, MobileIcon, TwitterLogoIcon } from "@radix-ui/react-icons"
+import { EnvelopeClosedIcon, MobileIcon } from "@radix-ui/react-icons"
 import RisenCargoLogoES from "../assets/RisenCargoLogoES_3nomargins.png";
 import React from 'react';
 
@@ -16,15 +16,13 @@ function Footer() {
 
           <div className="contact-info">
             <div className="contact-item">
-              <EnvelopeClosedIcon /><p>email@risencargo.com</p>
+              <EnvelopeClosedIcon /><p>sales@risencargo.com</p>
             </div>
             <div className="contact-item">
-              <MobileIcon /><p>(999) 999 - 9999</p>
+              <MobileIcon /><p>(619) 762 - 5850</p>
             </div>
             <div className="social-icons">
-              <InstagramLogoIcon />
-              <LinkedInLogoIcon />
-              <TwitterLogoIcon />
+ 
             </div>
           </div>
         </div>
