@@ -29,6 +29,7 @@ function GetQuote() {
               required 
             />
           </div>
+
           <div className="form-group">
             <label htmlFor="email">Email</label>
             <input 
@@ -39,6 +40,7 @@ function GetQuote() {
               required 
             />
           </div>
+
           <div className="form-group">
             <label htmlFor="projectDetails">Project Details</label>
             <textarea 
@@ -49,6 +51,7 @@ function GetQuote() {
               required
             ></textarea>
           </div>
+
           <button type="submit" className="submit-button">
             Submit Quote Request
           </button>
