@@ -49,6 +49,7 @@ function GetQuote() {
               rows="4"
               placeholder="Tell us about your project requirements..."
               required
+              style={{ resize: 'none' }}
             ></textarea>
           </div>
 
