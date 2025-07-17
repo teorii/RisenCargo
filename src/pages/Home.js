@@ -13,7 +13,6 @@ import expertiseImage from '../assets/home/expertise.jpg';
 import solutionsImage from '../assets/home/solutions.jpg';
 import diversityImage from '../assets/home/diversity.jpg';
 import serviceImage from '../assets/home/service.jpg';
-import ShowcaseObjects from '../components/ShowcaseObjects';
 
 function Home() {
   return (
