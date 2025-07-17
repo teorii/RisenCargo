@@ -13,6 +13,7 @@ import expertiseImage from '../assets/home/expertise.jpg';
 import solutionsImage from '../assets/home/solutions.jpg';
 import diversityImage from '../assets/home/diversity.jpg';
 import serviceImage from '../assets/home/service.jpg';
+import ShowcaseObjects from '../components/ShowcaseObjects';
 
 function Home() {
   return (
@@ -22,7 +23,7 @@ function Home() {
         subtitle="Empowering Supply Chains with Excellence."
         buttons={true}
         primaryButton={{ link: "services", text: "Services" }}
-        secondaryButton={{ link: "#mission", text: "Learn More" }}
+        secondaryButton={{ link: "about", text: "Learn More" }}
         backgroundImage={homeHeroImage}
       />
 
@@ -36,7 +37,7 @@ function Home() {
         imageFirst={false}
 
       />
-
+      
       <div className="blue">
         <div id="blue-content">
           <h1>Our Fleet.</h1>

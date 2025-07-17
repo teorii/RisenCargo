@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Hero({ title, subtitle, buttons = false, primaryButton, secondaryButton, backgroundImage}) {
   const heroStyle = {
@@ -26,15 +27,15 @@ function Hero({ title, subtitle, buttons = false, primaryButton, secondaryButton
           {buttons && (primaryButton || secondaryButton) && (
           <div className="hero-buttons">
             {primaryButton && (
-              <a href={primaryButton.link} className="button button-blue">
+              <Link to={`/${primaryButton.link}`} className="button button-blue">
                 {primaryButton.text}
-              </a>
+              </Link>
             )}
             {secondaryButton && (
-              <a href={secondaryButton.link} className="button button-white">
+              <Link to={`/${secondaryButton.link}`} className="button button-white">
                 {secondaryButton.text}
-                </a>
-              )}
+              </Link>
+            )}
             </div>
           )}
         </div>
