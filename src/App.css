@@ -135,7 +135,7 @@ body {
   display: inline-block;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
   .navbar {
     padding: 1rem;
     height: auto;
