@@ -11,7 +11,7 @@ function GetQuote() {
     setResult("Sending....");
     const formData = new FormData(event.target);
 
-    formData.append("access_key", "YOUR_ACCESS_KEY_HERE");
+    formData.append("access_key", "e10a6b01-08b6-4b19-8019-775c4f539a9c");
 
     const response = await fetch("https://api.web3forms.com/submit", {
       method: "POST",
@@ -38,7 +38,6 @@ function GetQuote() {
         backgroundImage={heroImage}
       />
       <div className="quote-form-container" style={{ textAlign: 'center', padding: '2rem', minHeight: '420px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-        {/*
         {success ? (
           <div style={{ width: '100%' }}>
             <h2 style={{ color: 'green', marginBottom: '1rem' }}>Success</h2>
@@ -90,11 +89,6 @@ function GetQuote() {
             </div>
           </form>
         )}
-        */}
-        <div style={{ width: '100%' }}>
-          <h2>Form under construction</h2>
-          <p>Please email requests to <a href="mailto:sales@risencargo.com">sales@risencargo.com</a> or call (619)762-5850</p>
-        </div>
       </div>
     </section>
   );
