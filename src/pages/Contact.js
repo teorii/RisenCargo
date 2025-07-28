@@ -81,7 +81,7 @@ function GetQuote() {
               ></textarea>
             </div>
 
-            <input type="checkbox" name="botcheck" class="hidden" style="display: none;"></input>
+            <input type="checkbox" name="botcheck" className="hidden" style={{ display: 'none' }} />
 
             <button type="submit" className="submit-button">
               Submit Quote Request
